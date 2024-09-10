@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+
+.main{
+    background: url("../img/background.png") no-repeat bottom left / cover;
+    height: 100vh;
+
+    &__block{
+        max-width: 608px;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        padding-top: 180px;
+    }
+    &__logo{
+        display: flex;
+        justify-content: center;
+        gap:8px;
+        align-items: center;
+    }
+    &__logo-text{
+    
+        font-size: 39px;
+        font-weight: 900;
+        color: #474747;
+    }
+}
+
+
+
+.form{
+    margin-top: 4;
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 24px;
+    &__title{
+        color:323233;
+        font-size: 25;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+    
+    &__signup{
+        text-align: center;
+        color: #5A6175;
+        font-size: 15px;
+        margin-bottom: 16px;
+        
+    }
+    &__link{
+        color:#FF6700
+    }
+    
+    &__input{
+        border: 1px solid #DAD7D5;
+        border-radius: 8px;
+        padding: 16px;
+        width: calc(100% - 48px);
+        margin-bottom: 24px;
+        width: 560px;
+    }
+    &__button{
+        display: flex;
+        background-color: #0C6FF9;
+        border-radius: 24px;
+        padding: 16px;
+        text-align: center;
+        width: 560px;
+        border: none;
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 24px;
+        margin-bottom:16px;
+        justify-content: center;
+    }
+    
+    &__icons-block{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__icon-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 24px;
+        padding: 8px 41px;
+        height: 48px;
+        width: 130px;
+        background-color: #000000;
+    }
+    &__gray{
+        background-color: #5A6175;
+    }
+    
+    &__green{
+        background-color: #2EBD59;
+    }
+    
+    &__white{
+        background-color: #FAF6F4;
+    }
+}
+
+
+
+
+
